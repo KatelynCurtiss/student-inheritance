@@ -29,6 +29,30 @@ class AI(Human):
     def learn(self):
         print("The AI is learning and improving its capabilities.")
 
+def analyze(self):
+        print(f"AI is analyzing data.")
+        print(AI.analyze)
+
+        AI.analyze()
+
+
+class Robot(Human):
+    def __init__(self, name, age, occupation, color):
+        self.color = color 
+        super().__init__(name, age, occupation)
+    
+    def think(self):
+        print(f"The robot is `perform_task()`.")
+
+    def communicate(self):
+        print("The robot is communicating digitally with a human.")
+
+    def learn(self):
+        print("The robot is learning and improving its capabilities.")
+
+
+
+
 my_ai = AI("Athena", 5, "Virtual Assistant", 9.8)
 print(my_ai.name)
 print(my_ai.age)
